@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "WordTab",
+  "version": "1.0",
+  "description": "Generate a new English word with meaning on a new tab.",
+  "permissions": [
+    "storage",
+    "https://dictionary-by-api-ninjas.p.rapidapi.com/",
+    "https://random-words5.p.rapidapi.com/"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
