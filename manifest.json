@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "WordTab",
+  "name": "WordPOP",
   "version": "1.0",
-  "description": "Generate a new English word with meaning on a new tab.",
+  "description": "Generate a new English word with meaning on a new tab and search.",
   "permissions": [
     "storage",
     "https://dictionary-by-api-ninjas.p.rapidapi.com/",
