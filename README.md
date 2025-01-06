@@ -1,5 +1,5 @@
 # 📚 WordPOP Chrome Extension
-
+ 
 ## ℹ️ Overview
 
 Welcome to WordPOP, a Chrome extension designed to enhance your browsing experience by introducing a new word and its meaning every time you open a new window or perform a search on Chrome.
